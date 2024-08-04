@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.corefeaturesection{
+    background-size: 100% 100%;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+}
+
+.companiesList{
+    animation: 10s infinite linear moveCompany;
+}
+
+@keyframes moveCompany {
+    0%{
+        top: 0;
+    }
+    100%{
+        top: -50%;
+    }
+}
+
+.ctsSection{
+    background-size: 100% 100%;
+}
+
+.diva a{
+    color: blue;
+    font-weight: bold;
+    font-family:"Mulish", "sans-serif";
+    font-size: small;
+}
+.diva h4{
+    font-weight: bold;
+    font-family:"Mulish", "sans-serif";
+    margin-top: .1cm;
+    margin-bottom: .1cm;
+}
+.foot {
+    background:linear-gradient(to right, #eef9fe, #edf7ff);
+}
+
+.para p{
+    color: rgb(116, 116, 116);
+}
+
+.smallPara {
+    font-size: 10px ;
+    line-height: 17px ;
+}
+.new{
+    font-size: small;
+    color: white;
+    background-color: rgb(73, 226, 73);
+    font-weight: 700;
+}
+
+.add{
+    color: rgb(116, 116, 116);;
+}
